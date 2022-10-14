@@ -5,8 +5,8 @@ import (
 	"encoding/base64"
 	"net/http"
 
-	"github.com/duo-labs/webauthn/protocol"
-	"github.com/duo-labs/webauthn/protocol/webauthncose"
+	"github.com/yongjacky/webauthn/protocol"
+	"github.com/yongjacky/webauthn/protocol/webauthncose"
 )
 
 // BEGIN REGISTRATION

@@ -3,11 +3,12 @@ package protocol
 import (
 	"bytes"
 	"encoding/base64"
-	"github.com/duo-labs/webauthn/protocol/webauthncbor"
 	"io/ioutil"
 	"net/http"
 	"reflect"
 	"testing"
+
+	"github.com/yongjacky/webauthn/protocol/webauthncbor"
 )
 
 func TestParseCredentialRequestResponse(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/duo-labs/webauthn/protocol/webauthncbor"
+	"github.com/yongjacky/webauthn/protocol/webauthncbor"
 )
 
 const (
